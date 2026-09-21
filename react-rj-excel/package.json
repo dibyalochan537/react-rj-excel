@@ -1,0 +1,55 @@
+{
+  "name": "react-rj-excel",
+  "version": "0.1.0",
+  "description": "Download Excel files from React by row and column position, with auto-merged cells, themes and a customizable button",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "excel",
+    "xlsx",
+    "export",
+    "download",
+    "merge-cells",
+    "button"
+  ],
+  "author": "YOUR NAME",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/react-rj-excel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/react-rj-excel/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/react-rj-excel#readme",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "vite": "^7.1.7"
+  }
+}
