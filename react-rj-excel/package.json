@@ -33,16 +33,16 @@
     "merge-cells",
     "button"
   ],
-  "author": "YOUR NAME",
+  "author": "Dibyalochan Dash",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/react-rj-excel.git"
+    "url": "git+https://github.com/dibyalochan537/react-rj-excel.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/react-rj-excel/issues"
+    "url": "https://github.com/dibyalochan537/react-rj-excel/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/react-rj-excel#readme",
+  "homepage": "https://github.com/dibyalochan537/react-rj-excel#readme",
   "dependencies": {
     "exceljs": "^4.4.0"
   },
